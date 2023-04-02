@@ -1,0 +1,70 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <title>Portfolio</title>
+  </head>
+  <body class="font-roboto">
+    <!-- Intro Section -->
+    <div class="h-half lg:h-screen bg-gradient-to-t from-indigo-200">
+      <!-- navbar -->
+      <nav class="w-full bg-white fixed top-0">
+        <div class="container mx-auto py-5 flex justify-between items-center">
+          <div class="flex items-center gap-2">
+            <img class="W-8" src="./img/logo.png" alt="logo" />
+            <span class="text-indigo-900 text-2xl font-bold">Asraful</span>
+          </div>
+          <ul
+            class="hidden md:flex space-x-10 text-gray-600 font-bold text-sm uppercase"
+          >
+            <li class="hover:text-gray-500"><a href="/home">Home</a></li>
+            <li class="hover:text-gray-500"><a href="/about">About</a></li>
+            <li class="hover:text-gray-500">
+              <a href="/services">Services</a>
+            </li>
+            <li class="hover:text-gray-500"><a href="/works">Works</a></li>
+            <li class="hover:text-gray-500"><a href="/contact">Contact</a></li>
+          </ul>
+          <img
+            src="./img/moon.png"
+            class="hidden md:block w-5 cursor-pointer"
+            alt=""
+          />
+
+          <div id="menuIcon" class="space-y-1 md:hidden cursor-pointer z-20">
+            <div class="w-6 h-0.5 bg-black"></div>
+            <div class="w-6 h-0.5 bg-black"></div>
+            <div class="w-6 h-0.5 bg-black"></div>
+          </div>
+          <ul
+            id="menu"
+            class="hidden bg-indigo-900 left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center absolute"
+          >
+            <li class=""><a href="/home">Home</a></li>
+            <li class=""><a href="/about">About</a></li>
+            <li class="">
+              <a href="/services">Services</a>
+            </li>
+            <li class=""><a href="/works">Works</a></li>
+            <li class=""><a href="/contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Inntro Content -->
+      <div class=""></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
